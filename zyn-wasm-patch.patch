@@ -513,14 +513,9 @@ diff --git a/src/Misc/MsgParsing.cpp b/src/Misc/MsgParsing.cpp
 diff --git a/src/Nio/SafeQueue.cpp b/src/Nio/SafeQueue.cpp
 --- a/src/Nio/SafeQueue.cpp
 +++ b/src/Nio/SafeQueue.cpp
-@@ -16,8 +16,8 @@
-     :writePtr(0), readPtr(0), bufSize(maxlen)
- {
+@@ -19,2 +19,2 @@
 -    w_space.init(PTHREAD_PROCESS_PRIVATE, maxlen - 1);
 -    r_space.init(PTHREAD_PROCESS_PRIVATE, 0);
 +    w_space.init(0, maxlen - 1);
 +    r_space.init(0, 0);
-     buffer = new T[maxlen];
- }
 
- 
