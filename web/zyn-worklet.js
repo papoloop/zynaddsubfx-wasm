@@ -1,5 +1,5 @@
 
-import createZynModule from '../zyn_wasm.js';
+import createZynModule from './zyn_wasm.js';
 
 console.log("AudioWorklet: ES6 Module Loaded (v13).");
 
