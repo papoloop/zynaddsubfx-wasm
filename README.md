@@ -68,3 +68,5 @@ python3 server.py
 ```
 
 Then access it at `http://localhost:8000`.
+
+Build test
