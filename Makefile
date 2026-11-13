@@ -87,6 +87,7 @@ patches: submodule
 	@./scripts/prepare_patches.sh
 	@echo "Generating patch list JSON..."
 	@python3 scripts/generate_patch_list.py
+    @cp -r patches web/
 
 # --- Submodules & Patching ---
 submodule:
