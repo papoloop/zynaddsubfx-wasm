@@ -499,3 +499,14 @@ index 931d0fcc..3e2c8af4 100644
  
              waveShapeSmps(sizeof(buffer)/sizeof(buffer[0]), buffer,
                      dd.Ptype + 1, dd.Pdrive, dd.Poffset, dd.Pfuncpar);
+
+diff --git a/src/Misc/MsgParsing.cpp b/src/Misc/MsgParsing.cpp
+--- a/src/Misc/MsgParsing.cpp
++++ b/src/Misc/MsgParsing.cpp
+@@ -22,6 +22,7 @@
+ #include <cstring>
++#include <stdlib.h>
+ #include <string>
+
+ #include "MsgParsing.h"
+ 
