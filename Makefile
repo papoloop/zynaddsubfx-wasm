@@ -14,7 +14,7 @@ EMMAKE := emmake
 FFTW_URL := https://fftw.org/fftw-3.3.11.tar.gz
 LIBLO_URL := https://github.com/radarsat1/liblo/releases/download/0.34/liblo-0.34.tar.gz
 MXML_URL := https://github.com/michaelrsweet/mxml/releases/download/v4.0.4/mxml-4.0.4.tar.gz
-ZLIB_URL := https://www.zlib.net/zlib-1.3.2.tar.gz
+ZLIB_URL := https://zlib.net/fossils/zlib-1.3.2.tar.gz
 LIBSNDFILE_URL := https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz
 
 # Export pkg-config variables for the build
